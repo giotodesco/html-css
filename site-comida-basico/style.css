@@ -1,0 +1,112 @@
+* {
+    font-family: "Quicksand", sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    overflow-x: hidden;
+    transition: all 400ms;
+    cursor: pointer;
+}
+header {
+    background-color: #F5960A;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav {
+    text-align: center;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin: 16px;
+}
+a {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+}
+ul {
+    list-style-type: none;
+}
+.meioss {
+    background-image: linear-gradient(#252525cc, #252525b0, #1d1c1ba9), url(fundo.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.meio1 {
+    color:#FFDB2B;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 4em;
+    font-weight: 700;
+}
+footer {
+    background-color: #272624;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px 0 10px 10px;
+}
+.botao1 {
+    width: 100px;
+    height: 50px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    border-radius: 12px;
+    color: black;
+    cursor: pointer;
+    background-color: #FFDB2B;
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 10px 10px 10px #13121273;
+}
+.botao2 {
+    width: 100px;
+    height: 50px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    border-radius: 12px;
+    color: black;
+    cursor: pointer;
+    background-color: #FFDB2B;
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 10px 10px 10px #13121273;
+}
+h2 {
+    font-weight: 800;
+    font-size: 32px;
+}
+.botao1:hover {
+    color: #FFDB2B;
+    background-color: #272624;
+}
+.botao2:hover {
+    color: #FFDB2B;
+    background-color: #79200a;
+}
+.titulo:hover {
+    color: #FFDB2B;
+}
+a:hover {
+    color: #FFDB2B;
+}
+.titulo {
+    animation: infinite;
+}
+.meio1:hover {
+    color: #080808;
+}

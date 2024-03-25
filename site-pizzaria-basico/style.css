@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    list-style-type: none;
+    }
+      
+html {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.inicio {
+    width: 100vw; /**/
+    height: 70px; /**/
+    background-color: rgba(31, 29, 29, 0.904); /**/
+    position: fixed; /*vai ficar fixo*/
+    display: flex; /**/
+    justify-content:space-around; /*Espaçamento*/
+    padding-left: 30rem;
+    align-items: center;
+}
+.inicio h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #d4d640;
+}
+.iniciologo {
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+    align-items: center;
+}
+.meios {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#25252533, #25252533, #94501094), url(pizzas.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.naveg {
+    text-align: center;
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+nav .naveg li a {
+    color: white;
+    padding: 8px 8px 8px 8px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 400ms;
+}
+nav .naveg li a:hover {
+    background-color: #242222a9;
+    color: #d4d640;
+
+}
+.meioz {
+    font-size: 3em;
+    font-weight: 600;
+    color: #c2c51a;
+}
+.meio {
+    font-size: 2em;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 3px;
+}
+.botao button {
+    width: 230px;
+    height: 60px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #d4d640;
+    color: black;
+    border-radius: 15px;
+    font-weight: 800;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: all 400ms;
+}
+.botao button:hover {
+    background-color: rgba(59, 48, 48, 0.171);
+    border: 1px solid #d4d640;
+    color: #d4d640;
+}
+.botao {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
